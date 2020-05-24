@@ -42,3 +42,7 @@ img.application-hover {
     background-color: #fed136;
     transform: scale(1.1);
 }
+
+.card-width {
+    width: 30%;
+}
