@@ -26,3 +26,19 @@
     color: #fed136;
 }
 
+img.application-hover {
+    width: 100%;
+    height: 100%;
+}
+
+.yellow-border {
+    border: 3px solid  #fed136;
+    border-radius: 10px;
+    padding:5px 30px;
+    transition: all .2s ease-in-out;
+}
+
+.yellow-border:hover {
+    background-color: #fed136;
+    transform: scale(1.1);
+}
