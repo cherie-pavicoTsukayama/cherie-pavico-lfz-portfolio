@@ -7,6 +7,11 @@
     font-weight: 400;
 }
 
+.montserrat-700 {
+    font-family: "Montserrat" sans-serif;
+    font-weight: 700;
+}
+
 .logo {
     width: 40%;
 }
