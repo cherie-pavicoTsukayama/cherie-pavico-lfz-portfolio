@@ -55,4 +55,3 @@
     $(window).scroll(navbarCollapse);
 })(jQuery); // End of use strict
 
-const farmToTableGitButton = document.getElementById('farmToTableGitButton')
