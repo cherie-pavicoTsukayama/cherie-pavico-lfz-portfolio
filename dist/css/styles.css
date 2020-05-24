@@ -10009,10 +10009,11 @@ p {
 .page-section {
   padding: 6rem 0;
 }
-.page-section h2.section-heading {
-  font-size: 2.5rem;
+.page-section h1.section-heading {
+  font-size: 3rem;
   margin-top: 0;
   margin-bottom: 1rem;
+  text-decoration: underline;
 }
 .page-section h3.section-subheading {
   font-size: 1rem;

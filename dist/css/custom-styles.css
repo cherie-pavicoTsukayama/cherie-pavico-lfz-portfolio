@@ -6,3 +6,23 @@
     font-family: "Montserrat" sans-serif;
     font-weight: 400;
 }
+
+.montserrat-700 {
+    font-family: "Montserrat" sans-serif;
+    font-weight: 700;
+}
+
+.logo {
+    width: 40%;
+}
+
+.tools-bg {
+    background-image: url(../assets/img/skills-bg-3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.accent-color-yellow {
+    color: #fed136;
+}
+
