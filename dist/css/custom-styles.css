@@ -54,3 +54,25 @@ img.application-hover {
 .application-card:hover {
     transform: scale(1.03);
 }
+
+.custom-footer {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    padding: 0.75rem 1.25rem;
+    border-top: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.badge-custom-color {
+    margin: 0;
+    background-image: linear-gradient(-45deg, #ffecf9, #f0e8ff);
+    color: black;
+    display: inline-block;
+    padding: 0.25em 0.4em;
+    font-size: 80%;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 0.25rem;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
