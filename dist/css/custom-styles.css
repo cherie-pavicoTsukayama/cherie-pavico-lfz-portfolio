@@ -46,3 +46,11 @@ img.application-hover {
 .card-width {
     width: 30%;
 }
+
+.application-card {
+    transition: all .2s ease-in-out;
+}
+
+.application-card:hover {
+    transform: scale(1.03);
+}
