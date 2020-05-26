@@ -26,6 +26,12 @@
     color: #fed136;
 }
 
+.btn-yellow-accent {
+  color: #fff;
+  background-color: #fed136;
+  border-color: #fed136;
+}
+
 .white {
     color: white;
 }
