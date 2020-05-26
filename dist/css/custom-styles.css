@@ -115,3 +115,17 @@ img.application-hover {
         width: 40%;
     }
 }
+
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 667px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+    .card-width {
+        width: 100%;
+    }
+    .card-button {
+        margin-bottom: 1rem;
+        width: 40%;
+    }
+}
