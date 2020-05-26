@@ -133,6 +133,16 @@ img.application-hover {
         background-size: cover;
         background-position: center;
     }
+    .testimonial-member img {
+        width: 40%;
+        height: 40%;
+        border: 0.3rem solid #fed136;
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 1rem;
+    }
+
 }
 
 /* ----------- iPhone 6, 6S, 7 and 8 ----------- */
@@ -148,6 +158,78 @@ img.application-hover {
     .card-button {
         margin-bottom: 1rem;
         width: 40%;
+    }
+    .logo-container {
+        justify-content: center;
+    }
+
+    .logo-resize {
+        width: 40%;
+        justify-content: center;
+    }
+
+    .tools-bg {
+        background-image: url(../assets/img/skills-bg-3.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    .testimonial-member img {
+        width: 40%;
+        height: 40%;
+        border: 0.3rem solid #fed136;
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 1rem;
+    }
+}
+
+/* Landscape */
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 667px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+    .card-width {
+        width: 45%;
+    }
+
+    .card-button {
+        margin-bottom: 1rem;
+        width: 40%;
+    }
+
+    .logo-container {
+        justify-content: center;
+    }
+
+    .logo-resize {
+        width: 25%;
+        justify-content: center;
+    }
+
+    .tools-bg {
+        background-image: url(../assets/img/skills-bg-3.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    .testimonial-member img {
+        width: 40%;
+        height: 40%;
+        border: 0.3rem solid #fed136;
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 1rem;
+    }
+
+    .container {
+        width: 100%;
+        margin: auto;
+        padding-right: 0;
+  padding-left: 0;
     }
 }
 
