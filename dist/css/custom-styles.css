@@ -3,12 +3,12 @@
 }
 
 .montserrat-400 {
-    font-family: "Montserrat" sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-weight: 400;
 }
 
 .montserrat-700 {
-    font-family: "Montserrat" sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-weight: 700;
 }
 
@@ -75,4 +75,19 @@ img.application-hover {
     vertical-align: baseline;
     border-radius: 0.25rem;
     transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.carousel-font {
+    color: black;
+}
+
+.testimonial-member img {
+  width: 90%;
+  height:90%;
+  border: 0.3rem solid #fed136;
+  background-color: black;
+}
+
+.red {
+    background-color: red;
 }

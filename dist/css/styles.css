@@ -5955,7 +5955,7 @@ a.close.disabled {
 }
 
 .carousel-indicators {
-  position: absolute;
+  /* position: absolute; */
   right: 0;
   bottom: 0;
   left: 0;
@@ -5971,12 +5971,12 @@ a.close.disabled {
   box-sizing: content-box;
   flex: 0 1 auto;
   width: 30px;
-  height: 3px;
+  height: 5px;
   margin-right: 3px;
   margin-left: 3px;
   text-indent: -999px;
   cursor: pointer;
-  background-color: #fff;
+  background-color: #fed136;
   background-clip: padding-box;
   border-top: 10px solid transparent;
   border-bottom: 10px solid transparent;
@@ -5993,15 +5993,14 @@ a.close.disabled {
 }
 
 .carousel-caption {
-  position: absolute;
+  /* position: absolute; */
   right: 15%;
   bottom: 20px;
   left: 15%;
   z-index: 10;
   padding-top: 20px;
   padding-bottom: 20px;
-  color: #fff;
-  text-align: center;
+  color: #000;
 }
 
 @-webkit-keyframes spinner-border {
