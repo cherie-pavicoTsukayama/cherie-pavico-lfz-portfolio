@@ -55,3 +55,11 @@
     $(window).scroll(navbarCollapse);
 })(jQuery); // End of use strict
 
+
+$('document').ready(contactEmail()).ready(contactPhone());
+function contactEmail() {
+    $("#contactEmail").text(" cherie" + "tsuka" + "yama" + "@gma" + "il.com").attr("href", "mailto:" + "cherie" + "tsuka" + "yama" + "@gma" + "il.com");
+}
+function contactPhone() {
+    $("#contactPhone").text(" (808)" + " 34" + "3" + "-21" + "85").attr("href", "tel:" + "(808)" + " 34" + "3" + "-21" + "85");
+}
