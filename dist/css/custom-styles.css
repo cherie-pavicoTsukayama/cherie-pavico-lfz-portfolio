@@ -102,8 +102,20 @@ img.application-hover {
   background-color: black;
 }
 
-.red {
-    background-color: red;
+.contact-links:hover {
+    color: #fed136;
+}
+
+.contact-social-button-dark {
+  color: #fed136;
+  background-color: #6c757d ;
+  border-color: #6c757d ;
+}
+
+.contact-social-button-dark:hover {
+  color: #000;
+  background-color: #fed136 ;
+  border-color: #fed136;
 }
 
 #courses .courses-item {
